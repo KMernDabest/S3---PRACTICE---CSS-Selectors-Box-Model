@@ -1,0 +1,17 @@
+/* TODO */
+button {
+    border-radius : 30px;
+    border : 3px solid rgb(219, 162, 197);
+    color : white;
+    font-size : 12px;
+    background-color : rgb(255, 192, 247);
+    cursor : pointer;
+    padding : 10px 20px;
+    transition : background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color : #8a3b72;
+    border-color : #8a3b721f;
+}
+

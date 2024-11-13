@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #423d3d1e; 
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+.profile-card {
+    background-color: rgb(53, 53, 53);
+    padding: 30px 15px;
+    width: 300px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border : 3px solid rgb(248, 127, 127);
+}
+
+.card-header {
+    position: relative;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.bio {
+    font-size: 14px;
+    color: #afadad;
+    margin-bottom: 15px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats h3 {
+    font-size: 16px;
+    color: #faf8f8;
+    margin: 5px 0;
+}
+
+.stats p {
+    color: #b6b4b4;
+    font-size: 12px;
+}
+
+.description {
+    font-size: 13px;
+    color: #fcfbfb;
+    padding: 0 10px;
+    margin: 10px 0 15px;
+    line-height: 1.5;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-media img {
+    width: 25px;
+    height: 25px;
+}
+
+.button {
+    background-color: #e04944;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: #850505d2;
+}
